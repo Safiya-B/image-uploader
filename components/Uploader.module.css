@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 0px 32px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uploadingCard {
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 10px 32px 32px 36px;
+}
+
+.uploadedTitle {
+  padding-bottom: 10px;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+.cardTitle {
+  margin: 30px 0 16px 0;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+.cardSubtitle {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: -0.035em;
+  color: #828282;
+  margin: 0 0 30px 0;
+}
+
+.dropText {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.035em;
+  color: #bdbdbd;
+}
+
+.dropArea {
+  width: 338px;
+  height: 218.9px;
+  background: #f6f8fb;
+  border: 1px dashed #97bef4;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dropArea.activeArea {
+  border: 2px dashed #97bef4;
+}
+
+.dropImage {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.fileCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fileName {
+  font-size: 12px;
+  font-family: "Noto Sans", sans-serif;
+  color: #828282;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.uploadBtn {
+  background: #2f80ed;
+  border-radius: 8px;
+  border: none;
+  font-family: "Noto Sans", sans-serif;
+  padding: 8px 16px 8px 16px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.filenameCard {
+  width: 338px;
+  padding: 7px;
+  background: #f6f8fb;
+  border: 1px solid #97bef4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cardBottom {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.uploadedCard {
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 0px 30px 10px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.uploadedFooter {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 25px;
+  padding: 0;
+}
+
+.gobackDiv {
+  display: flex;
+  width: 75px;
+  padding-bottom: 3px;
+  align-items: flex-end;
+  gap: 5px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
+  border-bottom: 1px solid #4f4f4f;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color: #4f4f4f;
+}
+
+.gobackDiv:hover {
+  color: #828282;
+  border-bottom: 1px solid #828282;
+}
+
+.backArrow {
+  font-size: 17px;
+}
+.btn {
+  background: #2f80ed;
+  border-radius: 8px;
+  border: none;
+  font-family: "Noto Sans", sans-serif;
+  padding: 8px 16px 8px 16px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.progressWrapper {
+  width: 341px;
+  height: 6px;
+  background-color: #f2f2f2;
+  margin: 30px 0 5px 0;
+  border-radius: 8px;
+}
+
+.progressBar {
+  height: 6px;
+  background-color: #2f80ed;
+  border-radius: 8px;
+}
+
+.imageArea {
+  width: 340px;
+  height: 325px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.uploadedImg {
+  border-radius: 12px;
+}
+
+.copyBtn {
+  min-width: 120px;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Noto Sans", sans-serif;
+  padding: 10px;
+  background: #2f80ed;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.copyBtn:hover {
+  opacity: 0.9;
+}
+
+.imageLink {
+  box-sizing: border-box;
+  outline: none;
+  width: 338px;
+  padding: 2px 2px 2px 10px;
+  background: #f6f8fb;
+  /* Gray 5 */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.fileInput {
+  display: none;
+}
+
+.linkInput {
+  margin: 0;
+  color: #4f4f4f;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.materialIcons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 36px; /* Preferred icon size */
+  color: #219653;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+
+  margin-top: 40px;
+}
+
+.imageIcon {
+  font-size: 35px;
+  color: #498c8a;
+}

@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&family=Poppins:wght@400;500&display=swap");
+
+html,
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
